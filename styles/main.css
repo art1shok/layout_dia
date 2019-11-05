@@ -299,7 +299,7 @@ input {
     color: #fff;
     padding-top: 5px; }
 
-.social {
+.socials {
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -313,7 +313,7 @@ input {
   z-index: 3;
   right: -250px;
   bottom: 460px; }
-  .social a {
+  .socials a {
     font-weight: 800;
     font-size: 12.6px;
     line-height: 150%;
@@ -321,11 +321,11 @@ input {
     letter-spacing: 2px;
     text-decoration: none;
     color: #253757; }
-  .social__facebook:hover {
+  .socials__facebook:hover {
     color: #3b5998; }
-  .social__twitter:hover {
+  .socials__twitter:hover {
     color: #3b5998; }
-  .social__instagram:hover {
+  .socials__instagram:hover {
     color: #3b5998; }
 
 .what-we-do {
