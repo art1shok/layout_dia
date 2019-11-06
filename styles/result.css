@@ -1,0 +1,102 @@
+.result {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 140px 0 250px; }
+  .result__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+    color: #253757; }
+  .result__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    padding: 55px 0; }
+  .result__button {
+    background-color: #2f80ed;
+    color: #fff; }
+  .result .elipse {
+    position: absolute;
+    border-radius: 50px;
+    -webkit-transform: rotate(34.9deg);
+            transform: rotate(34.9deg);
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .result .elipse--big {
+      height: 143px;
+      width: 57px;
+      border-width: 2px; }
+    .result .elipse--medium {
+      height: 85px;
+      width: 34px;
+      border-width: 1.5px; }
+    .result .elipse--small {
+      height: 45px;
+      width: 18px;
+      border-width: 1px; }
+    .result .elipse--green {
+      border: solid #03d542; }
+      .result .elipse--green:hover {
+        background-color: #03d542; }
+    .result .elipse--blue {
+      border: solid #56ccf2; }
+      .result .elipse--blue:hover {
+        background-color: #56ccf2; }
+    .result .elipse--yellow {
+      border: solid #fcc304; }
+      .result .elipse--yellow:hover {
+        background-color: #fcc304; }
+    .result .elipse--red {
+      border: solid #bc04fc; }
+      .result .elipse--red:hover {
+        background-color: #bc04fc; }
+    .result .elipse--one {
+      top: 300px;
+      left: 70px; }
+    .result .elipse--two {
+      top: 80px;
+      right: 50px; }
+    .result .elipse--three {
+      top: 400px;
+      right: 10px; }
+    .result .elipse--four {
+      top: 10px;
+      left: 50px; }
+    .result .elipse--five {
+      top: 550px;
+      left: 0; }
+    .result .elipse--six {
+      top: 350px;
+      right: 180px; }
+    .result .elipse--seven {
+      top: 200px;
+      right: -50px; }
+    .result .elipse--eight {
+      top: 0;
+      left: 250px; }
+    .result .elipse--nine {
+      top: 470px;
+      left: 270px; }
+    .result .elipse--ten {
+      top: 0;
+      right: -40px; }
+    .result .elipse--eleven {
+      top: 550px;
+      right: 400px; }
+    .result .elipse--twelve {
+      top: 380px;
+      left: -50px; }
+
+/*# sourceMappingURL=result.css.map */
