@@ -847,4 +847,34 @@ input {
   .info .facebook__img {
     background-image: url("../images/facebook.svg"); }
 
+.page-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 15px 80px; }
+  .page-footer__copy {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    color: #253757; }
+  .page-footer .navigation__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .page-footer .navigation__link {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 31px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #253757; }
+    .page-footer .navigation__link:hover {
+      text-decoration: underline; }
+
 /*# sourceMappingURL=main.css.map */
