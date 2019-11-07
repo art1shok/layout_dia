@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif; }
+
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+button {
+  margin: 0;
+  padding: 0; }
+
+.button {
+  height: 56px;
+  width: 256px;
+  border-radius: 64px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%; }
+  .button:hover {
+    background-color: #fff;
+    border: 1px solid #2f80ed;
+    color: #2f80ed;
+    cursor: pointer; }
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.section-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .section-name__icon-blue {
+    background-image: url("../images/section__icon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 21px; }
+  .section-name__icon-white {
+    background-image: url("../images/section__icon-white.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 21px; }
+  .section-name__title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-indent: 16px;
+    color: #56ccf2; }
+  .section-name__title-white {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-indent: 16px;
+    color: #fff; }
+
+.main {
+  position: relative; }
+
+h3 {
+  padding: 19px 0 64px;
+  color: #253757; }
+
+p {
+  color: #253757; }
+
+input {
+  border: none; }
+
+.background__blue {
+  background: -webkit-gradient(linear, left bottom, left top, from(#56ccf2), to(#56ccf2));
+  background: linear-gradient(0deg, #56ccf2, #56ccf2); }
+
+.background__yellow {
+  background: #fcc304; }
+
+.background__green {
+  background: -webkit-gradient(linear, left bottom, left top, from(#03d542), to(#03d542));
+  background: linear-gradient(0deg, #03d542, #03d542); }
+
+.background__red {
+  background: #f25656; }
+
+.blue {
+  color: #56ccf2; }
+
+.yellow {
+  color: #fcc304; }
+
+.green {
+  color: #03d542; }
+
+.red {
+  color: #f25656; }
+
+/*# sourceMappingURL=reset.css.map */
